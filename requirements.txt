@@ -1,0 +1,36 @@
+# torch==2.2.2
+# torchvision==0.17.2
+# torchaudio==2.2.2
+# opencv-python==4.9.0.80
+# numpy==1.26.4
+# Pillow==10.2.0
+# matplotlib==3.8.4
+# tqdm==4.66.2
+# scikit-image==0.22.0
+# ffmpeg-python==0.2.0
+# imageio==2.34.0
+# # dlib
+# pyyaml
+torch>=1.13
+torchvision>=0.14
+Pillow>=7.1
+matplotlib
+pycocotools>=2.0.2
+termcolor>=1.1
+yacs>=0.1.8
+tabulate
+cloudpickle
+tqdm>4.29.0
+tensorboard
+fvcore<0.1.6,>=0.1.5
+iopath<0.1.10,>=0.1.7
+omegaconf<2.4,>=2.1
+hydra-core>=1.1
+black
+packaging
+pyyaml>=5.1
+ninja
+
+
+# Install detectron2 separately using the custom command below
+# pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu121/torch2.2/index.html
